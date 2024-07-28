@@ -1,0 +1,15 @@
+.me,
+.no {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.me {
+  color: rgb(255, 255, 255);
+  background-color: hsl(0, 0%, 0%);
+}
+
+.no {
+  color: #000000;
+  background-color: rgb(255, 255, 0);
+}
