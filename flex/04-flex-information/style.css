@@ -12,24 +12,6 @@ img {
   font-weight: 900;
 }
 
-/* solution */
-
-.title {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-}
-
-.contents {
-  max-width: 200px;
-  text-align: center;
-}
-
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -41,4 +23,24 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
+  text-align: center;
 }
